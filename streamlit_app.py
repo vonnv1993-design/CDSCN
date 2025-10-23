@@ -299,7 +299,7 @@ if 'show_confetti' not in st.session_state:
 
 # Title with emoji
 st.markdown("<h1>💛 BỐC THĂM GHÉP CẶP NGẪU NHIÊN 💙</h1>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center; font-size: 1.2rem; color: #555;'>✨ Hệ thống ghép cặp tự động với hiệu ứng đặc biệt ✨</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; font-size: 1.2rem; color: #555;'>✨ Hệ thống ghép cặp tự động ✨</p>", unsafe_allow_html=True)
 st.markdown("---")
 
 # Sidebar for input
