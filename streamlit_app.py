@@ -639,7 +639,7 @@ st.markdown("""
         💛 Ứng dụng Bốc Thăm Ghép Cặp Ngẫu Nhiên 💙
     </p>
     <p style='font-size: 0.9rem; color: #666; margin: 5px 0 0 0;'>
-        ✨ Phiên bản 2.0 - Giao diện vàng đồng & xanh dương ✨
+        ✨ Phiên bản 2.0 - Ban Chuyển đổi số và Công nghệ ✨
     </p>
 </div>
 """, unsafe_allow_html=True)
