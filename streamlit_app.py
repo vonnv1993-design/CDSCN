@@ -61,6 +61,15 @@ st.markdown("""
         font-weight: 600 !important;
     }
     
+    /* Hide keyboard double arrow right icon */
+    [data-testid="stExpanderToggleIcon"] {
+        display: none !important;
+    }
+    
+    .streamlit-expanderHeader::before {
+        display: none !important;
+    }
+    
     /* Cards for lists */
     .list-card {
         background: white;
@@ -242,6 +251,7 @@ st.markdown("""
         background: linear-gradient(90deg, #FFE5B4 0%, #E0F7FF 100%);
         border-radius: 10px;
         font-weight: 600;
+        padding-left: 15px !important;
     }
     
     /* Number badge */
@@ -299,7 +309,7 @@ if 'show_confetti' not in st.session_state:
 
 # Title with emoji
 st.markdown("<h1>💛 BỐC THĂM GHÉP CẶP NGẪU NHIÊN 💙</h1>", unsafe_allow_html=True)
-st.markdown("<p style='text-align: center; font-size: 1.2rem; color: #555;'>✨ Hệ thống ghép cặp tự động ✨</p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; font-size: 1.2rem; color: #555;'>✨ Hệ thống ghép cặp tự động với hiệu ứng đặc biệt ✨</p>", unsafe_allow_html=True)
 st.markdown("---")
 
 # Sidebar for input
@@ -639,7 +649,7 @@ st.markdown("""
         💛 Ứng dụng Bốc Thăm Ghép Cặp Ngẫu Nhiên 💙
     </p>
     <p style='font-size: 0.9rem; color: #666; margin: 5px 0 0 0;'>
-        ✨ Phiên bản 2.0 - Ban Chuyển đổi số và Công nghệ ✨
+        ✨ Phiên bản 2.0 - Giao diện vàng đồng & xanh dương ✨
     </p>
 </div>
 """, unsafe_allow_html=True)
